@@ -1,23 +1,19 @@
-Basic Logic Gates LAB 1.
+Arithmetic Logic Unit (ALU) LAB 5.
 o Objectives: What was the goal of this lab?
 
-■ Gain a solid understanding of the basic structure of Verilog modules and ports.
-■ Be able to implement simple digital logic circuits using Verilog HDL, employing different modeling
-styles.
-■ Become familiar with the simulation and verification process in HDL design using Icarus Verilog
-and testbenches.
-■ Understand the trade-offs between different modeling approaches in Verilog and choose the most
-appropriate style for a given design scenario.
-■ Develop the skills to write basic testbenches to provide input stimuli and observe the outputs of
-your designs.
+■ Understand the functionality of an Arithmetic Logic Unit (ALU).
+■ Implement 4-bit ALU using Verilog.
+■ Develop a testbench to verify the ALU design.
+■ Simulate and analyze the ALU’s behavior using ModelSim.
+■ Implement the ALU on a DE1-SoC FPGA board.
 
 
 o Design Description: 
-We made simple logic gates using verilog code using Dataflow, Behavioural, and Structural design
+We made a simple ALU using verilog to upload unto a DE1-SOC board
 
 o Simulation Results & Waveforms:
 The testbench used iterated through all possible inputs for the gates to get all the possible outputs 
-[Screenshot](./Gate%20Results.pdf)
+[Screenshot](Lab%205.pdf)
 
 o Conclusions:
-I learned the basics of coding in verilog the the foundations of creating more complicated circuits
+I learned the function of an ALU and how to make a simple version of it. I discovered the usages and the importance of it in modern electronics
