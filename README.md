@@ -12,6 +12,6 @@ This repository contains all my lab submissions for COE180.1, implemented in VHD
 [Lab 5 Arithmetic Logic Unit](./Lab%205/)
 [Lab 6 ALU: A Hierarchical Design](./Lab%206/)
 [Lab 7 Modeling Latches and Flip-flops](./Lab%207/)
-[Lab 8 Part 1: Modeling Registers and Counters]
-[Lab 9 Part 2: Modeling Registers and Counters]
+[Lab 8 Part 1: Modeling Registers and Counters](./Lab%208/)
+[Lab 9 Part 2: Modeling Registers and Counters](./Lab%209/)
 [Lab 10 Finite State Machines]
