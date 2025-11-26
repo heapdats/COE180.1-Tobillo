@@ -3,11 +3,11 @@ module clk_div(
     input reset,
     output clk_en
 );
-    reg [24:0] clk_count;
+    reg [3:0] clk_count;
     always @(posedge clk)
     begin
         if(reset)
-            clk_count<= 0;
+            clk_count <= 0;
         else
             clk_count <=clk_count + 1;
     end
