@@ -1,5 +1,5 @@
-module T_flip_flop (
-    input T,
+module D_flip_flop (
+    input D,
     input Clk,
     input Reset,
     output reg Q
@@ -8,6 +8,6 @@ module T_flip_flop (
         if (Reset)
             Q <= 0;
         else if (T)
-            Q <= ~Q;
+            Q <= D;
     end
 endmodule
