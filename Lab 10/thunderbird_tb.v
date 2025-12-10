@@ -46,7 +46,7 @@ module thunderbird_tb;
         Reset = 0;
 
         Left_switch = 1;
-        Right_switch = 1; #1000;
+        Right_switch = 1; #50;
         Left_switch = 0;
         Right_switch = 0; #500;
 

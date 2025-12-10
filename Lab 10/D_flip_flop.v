@@ -7,7 +7,7 @@ module D_flip_flop (
     always @(posedge Clk or posedge Reset) begin
         if (Reset)
             Q <= 0;
-        else if (T)
+        else
             Q <= D;
     end
 endmodule

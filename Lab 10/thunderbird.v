@@ -11,8 +11,6 @@ module thunderbird_wrapper (
     output R_B,
     output R_C
 );
-    wire Reset_Left = (~Left_switch | Reset);
-    wire Reset_Right = (~Right_switch | Reset);
 
     wire [1:0] Q_Left;
     wire [1:0] Q_Right;
@@ -27,15 +25,15 @@ module thunderbird_wrapper (
 
     counter left (
         .Clk(Clk),
-        .Reset(Reset_Left),
-        .Enable(Left_switch & Clk_div),
+        .Reset(Reset),
+        .Enable((Q_Left[0] | Q_Left[1] | Left_switch) & Clk_div),
         .Q(Q_Left)
     );
 
     counter right (
         .Clk(Clk),
-        .Reset(Reset_Right),
-        .Enable(Right_switch & Clk_div),
+        .Reset(Reset),
+        .Enable((Q_Right[0] | Q_Right[1] |Right_switch) & Clk_div),
         .Q(Q_Right)
     );
 
