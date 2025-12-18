@@ -48,12 +48,25 @@ module thunderbird_tb;
         Left_switch = 1;
         Right_switch = 1; #50;
         Left_switch = 0;
-        Right_switch = 0; #500;
+        Right_switch = 0; #100;
 
         Left_switch = 1;
-        Right_switch = 1; #25;
+        Right_switch = 1; #200;
         Left_switch = 0;
-        Right_switch = 0; #25;
+        Right_switch = 0; #100;
+        
+        Left_switch = 1;
+        Right_switch = 1; #50;
+        Left_switch = 0;
+        Right_switch = 0; #50;
+        Reset = 1; #10;
+        Reset = 0; #40;
+        
+        Left_switch = 1; #50;
+        Left_switch = 0;
+        Right_switch = 1; #50;
+        Right_switch = 0; #100;
+        
 
         $finish;
 
